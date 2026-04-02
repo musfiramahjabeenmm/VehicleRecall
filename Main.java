@@ -39,7 +39,7 @@ public class Main {
                     System.out.println("Manufacturer added.");
                 }
 
-                // ➤ ADD VEHICLE
+                
                 else if (input.equalsIgnoreCase("add vehicle")) {
 
                     System.out.println("Enter: id model year manufacturerId");
@@ -55,7 +55,7 @@ public class Main {
                     System.out.println("Vehicle added.");
                 }
 
-                // ➤ ADD RECALL
+            
                 else if (input.equalsIgnoreCase("add recall")) {
 
                     System.out.println("Enter: id vehicleId component description risk remedy");
@@ -75,7 +75,6 @@ public class Main {
                     System.out.println("Recall added.");
                 }
 
-                // ➤ FETCH RECALLS
                 else if (input.startsWith("recalls")) {
 
                     String[] parts = input.split(" ");
@@ -84,7 +83,7 @@ public class Main {
                     service.getRecallsByManufacturer(manufacturerId);
                 }
 
-                // ➤ EXIT
+             
                 else if (input.equalsIgnoreCase("exit")) {
                     System.out.println("Exiting...");
                     break;
