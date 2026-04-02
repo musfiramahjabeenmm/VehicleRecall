@@ -23,7 +23,6 @@ public class Main {
 
             try {
 
-                // ➤ ADD MANUFACTURER
                 if (input.equalsIgnoreCase("add manufacturer")) {
 
                     System.out.println("Enter: id name location contact");
